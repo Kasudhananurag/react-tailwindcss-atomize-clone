@@ -1,11 +1,16 @@
 import React from 'react';
-import { FaPlayCircle, FaEnvelope,FaIcons, FaHeart, FaRegEye, FaPen, FaPaperclip, FaPlus, FaCloudDownloadAlt } from "react-icons/fa";
+import { FaLinkedin,FaPlayCircle,FaGithub, FaReact, FaEnvelope, FaIcons, 
+    FaHeart, FaRegEye, FaPen, FaPaperclip, FaPlus, FaCloudDownloadAlt, 
+    FaGlobe } from "react-icons/fa";
 import { FcBusinesswoman, FcBusinessman } from "react-icons/fc";
-import { BsChatLeft,BsSymmetryVertical,BsBoxArrowDownLeft, BsFillGrid1X2Fill, BsTriangleHalf, BsFillAspectRatioFill, BsGrid } from "react-icons/bs";
+import { BsArrowRight, BsChatLeft, BsSymmetryVertical, BsBoxArrowDownLeft, BsFillGrid1X2Fill, BsTriangleHalf, BsFillAspectRatioFill, BsGrid } from "react-icons/bs";
 import card2 from "./assets/card2.png";
 import { BiAtom } from "react-icons/bi";
 import { IoIosSwitch } from "react-icons/io";
 import { AiOutlineControl } from "react-icons/ai";
+import { SiRubygems } from "react-icons/si";
+
+const s = "</>";
 
 const Hero = () => {
     return (
@@ -109,39 +114,39 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <hr />  
+            <hr />
             <div className="w-full my-11 px-3    pt-10 mb-8 pb-8">
                 <div className='w-[40%] mx-auto'>
                     <p className='text-5xl'>Beautiful & consistant UI powered with <span className='text-blue-400'>React</span>. </p>
                 </div>
                 <div className="w-full mx-auto md:w-[40%] grid grid-cols-2 mt-11 md:grid-cols-3">
                     <div className='mx-2'>
-                        <BiAtom size={30}/>
+                        <BiAtom size={30} />
                         <p className='my-4'>Atomic</p>
                         <p className='text-xs text-slate-400'>Based on Atomic Design Methodology.</p>
                     </div>
                     <div className='mx-2'>
-                        <BsSymmetryVertical size={30}/>
+                        <BsSymmetryVertical size={30} />
                         <p className='my-4'>Theme Setup</p>
                         <p className='text-xs text-slate-400'>Auto updating colors and Styleguide.</p>
                     </div>
                     <div className='mx-2'>
-                        <IoIosSwitch size={30}/>
+                        <IoIosSwitch size={30} />
                         <p className='my-4'>Components</p>
                         <p className='text-xs text-slate-400'>Ever-increasing list of components.</p>
                     </div>
                     <div className='mx-2'>
-                        <BsBoxArrowDownLeft size={30}/>
+                        <BsBoxArrowDownLeft size={30} />
                         <p className='my-4'>Responsive</p>
                         <p className='text-xs text-slate-400'>Build fully responsive structures easily.</p>
                     </div>
                     <div className='mx-2'>
-                        <AiOutlineControl size={30}/>
+                        <AiOutlineControl size={30} />
                         <p className='my-4'>Customisation</p>
                         <p className='text-xs text-slate-400'>Multiple customisations to suit your style.</p>
                     </div>
                     <div className='mx-2'>
-                        <FaIcons size={30}/>
+                        <FaIcons size={30} />
                         <p className='my-4'>Icon System</p>
                         <p className='text-xs text-slate-400'>An inbuilt Icon system for faster development.</p>
                     </div>
@@ -149,6 +154,112 @@ const Hero = () => {
             </div>
             <div className='w-full my-10'>&nbsp;</div>
             <hr />
+            <div className="w-full py-11">
+                <div className='w-full md:w-[50%] text-center font-serif font-[90] p-4 mx-auto'>
+                    <p className='text-3xl'>A combination of tools to design and develop modern applications at ease.</p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full md:w-[45%] my-11 mx-auto px-3">
+                    <div className='p-4 shadow-lg border rounded-lg'>
+                        <div className='w-full mt-4 text-orange-400'><SiRubygems size={50} /></div>
+                        <p className='mt-6 text-2xl'>Design.</p>
+                        <p className='text-sm text-slate-400 my-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a href="" className='text-sm text-sky-400 flex items-center '>Design Resource &nbsp; <BsArrowRight /></a>
+                    </div>
+                    <div className='p-4 shadow-lg border rounded-lg'>
+                        <div className='w-full mt-4 text-sky-500 font-bold'><FaReact size={50} /></div>
+                        <p className='mt-6 text-2xl'>Development.</p>
+                        <p className='text-sm text-slate-500 my-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a href="" className='text-sm text-sky-400 flex items-center '>Documentation &nbsp; <BsArrowRight /></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <div className="w-full mt-11 mb-11">
+                <div className=' mw-[90%] mt-10 md:w-[70%] mx-auto grid grid-cols-2 md:grid-cols-4'>
+                    <div className="text-center mt-11 mb-11 ">
+                        <p className='text-4xl'>15+</p>
+                        <p className='text-slate-500 mt-5'>Ready to use React Components</p>
+                    </div>
+                    <div className="text-center">
+                        <div className="text-center mt-11 mb-11 ">
+                            <p className='text-4xl'>60+</p>
+                            <p className='text-slate-500 mt-5'>Predefined colors for theme setup</p>
+                        </div>
+                    </div>
+                    <div className="text-center">
+                        <div className="text-center mt-11 mb-11 ">
+                            <p className='text-4xl'>{s}</p>
+                            <p className='text-slate-500 mt-5'>Ready to use React Components</p>
+                        </div>
+                    </div>
+                    <div className="text-center">
+                        <div className="text-center mt-11 mb-11 ">
+                            <p className='text-4xl'>FREE</p>
+                            <p className='text-slate-500 mt-5'>Open source with regular updates</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+            {/* footer */}
+            <div className="w-full pt-10">
+                <div className="hidden md:w-[70%] mx-auto md:grid md:grid-cols-5 md:gap-4 ">
+                    <div className='text-left text-sm'>
+                        <p className='font-bold'>Docs</p>
+                        <ul className='list-none text-xs'>
+                            <li className='my-6'>Installation</li>
+                            <li className='my-6'>Theme Setup</li>
+                            <li className='my-6'>Grid</li>
+                            <li className='my-6'>Atoms</li>
+                            <li className='my-6'>Molecules</li>
+                            <li className='my-6'>Functions</li>
+                        </ul>
+                    </div>
+                    <div className='text-left text-sm'>
+                        <p className='font-bold'>Atomize</p>
+                        <ul className='list-none text-xs'>
+                            <li className='my-6'>Features</li>
+                            <li className='my-6'>Design</li>
+                            <li className='my-6'>Development</li>
+                        </ul>
+                    </div>
+                    <div className='text-left text-sm'>
+                        <p className='font-bold'>Resources</p>
+                        <ul className='list-none text-xs'>
+                            <li className='my-6'>Sketch Files</li>
+                            <li className='my-6'>Github</li>
+                        </ul>
+                    </div>
+                    <div className='text-left text-sm'>
+                        <p className='font-bold'>About</p>
+                        <ul className='list-none text-xs'>
+                            <li className='my-6'>Showcase</li>
+                            <li className='my-6'>Contribute</li>
+                        </ul>
+                    </div>
+                    <div className='text-left text-sm'>
+                        <p className='font-bold'>Extras</p>
+                        <ul className='list-none text-xs'>
+                            <li className='my-6'>Blog</li>
+                            <li className='my-6'>Need Help?</li>
+                            <li className='my-6'>Give Feedback</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className='mt-11 mb-5 text-center w-full'>
+                    <p className='text-sm mt-11'> Designed and Developed by Anurag Kasudhan</p>
+                    <div className='my-6 w-[10%] mx-auto flex'>
+                        <div className=''><a href="https://github.com/Kasudhananuag"><FaGithub size={22}/></a></div>
+                        <div className='mx-2'><a href="https://www.linkedin.com/in/kasudhananurag/"><FaLinkedin size={22}/></a></div>
+                        <div className='mx-2'><a href="https://portfolioanuragkasudhan.web.app/"><FaGlobe size={22}/></a></div>
+                    </div>
+                    <div className="mt-6">&nbsp;</div>
+                </div>
+            </div>
+
         </div>
     )
 }
